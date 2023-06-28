@@ -35,7 +35,7 @@ function post({ stream, hostname, path }) {
     });
     stream.pipe(req);
     req.on("end", () => {
-      res();
+      resolve();
     });
   });
 }
