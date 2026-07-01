@@ -13,6 +13,6 @@
     "url": "https://github.com/gunar/email-to-webhook"
   },
   "dependencies": {
-    "smtp-server": "^3.6.0"
+    "smtp-server": "^3.18.3"
   }
 }
